@@ -1,0 +1,23 @@
+{
+    "name": "wangyw/fengkong",
+    "description": "风控",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.5.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WangYawei",
+            "email": "434491732@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "FengKong\\Shumei\\" : "src/"
+        }
+    }
+}
